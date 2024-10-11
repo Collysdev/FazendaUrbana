@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sustentabilidade"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <ImageView
+            android:id="@+id/imageSustentabilidade"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/image_sustentabilidade"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Em um mundo onde a água se torna cada vez mais um recurso precioso, a fazenda urbana HortoInova surge como um farol de inovação e sustentabilidade. Mostrando que é possível produzir alimentos de forma sustentável em ambientes urbanos."
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Produção Local"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <ImageView
+            android:id="@+id/imageProducaoLocal"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/image_producao_local"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="O princípio fundamental da HortoInova é simples: produzir localmente, consumir localmente. Em vez de depender de longas cadeias de fornecimento, onde os alimentos viajam milhares de quilômetros antes de chegar ao prato do consumidor."
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Livre de Agrotóxicos"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <ImageView
+            android:id="@+id/imageLivreAgrotoxicos"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/image_livre_agrotoxicos"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Na HortoInova, os agrotóxicos são banidos e substituídos por práticas agrícolas sustentáveis. Além dos benefícios para a saúde, a produção livre de agrotóxicos da HortoInova também contribui para a saúde do meio ambiente. Evitando a contaminação do solo e da água."
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Educação Ambiental"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <ImageView
+            android:id="@+id/imageEducacaoAmbiental"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/image_educacao_ambiental"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Desde o início, a HortoInova foi concebida como um espaço onde as pessoas poderiam aprender sobre práticas agrícolas sustentáveis, biodiversidade urbana e a importância da preservação do meio ambiente. Com programas educacionais para todas as idades, desde crianças até adultos."
+            android:layout_marginBottom="16dp"/>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- Logo da empresa -->
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo" <!-- Coloque a imagem da logo aqui -->
+    android:layout_alignParentStart="true"
+    android:layout_margin="16dp"/>
+
+    <!-- Botão de Login -->
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:background="@drawable/rounded_button"
+        android:textColor="@android:color/white"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Botão de Cadastro -->
+    <Button
+        android:id="@+id/btnCadastro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cadastro"
+        android:background="@drawable/rounded_button"
+        android:textColor="@android:color/white"
+        android:layout_toLeftOf="@id/btnLogin"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Seção Sobre Nós -->
+    <ScrollView
+        android:layout_below="@id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/sobre_nos" /> <!-- Imagem sobre a empresa -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sustentabilidade: Em um mundo onde a água se torna cada vez mais um recurso precioso..."
+                android:padding="16dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Produção Local: O princípio fundamental da HortoInova é simples..."
+                android:padding="16dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Livre de Agrotóxicos: Na HortoInova, os agrotóxicos são banidos..."
+                android:padding="16dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Educação Ambiental: Desde o início, a HortoInova foi concebida..."
+                android:padding="16dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
