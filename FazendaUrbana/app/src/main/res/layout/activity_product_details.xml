@@ -102,7 +102,30 @@
     <RadioGroup
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
+        android:orientation="horizontal">
 
+        <!-- Aqui você pode adicionar as opções de molho e bebida -->
+        <RadioButton
+            android:id="@+id/radioKetchup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ketchup"
+            android:layout_margin="10dp" />
 
+        <RadioButton
+            android:id="@+id/radioMustard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mustard"
+            android:layout_margin="10dp" />
 
+        <RadioButton
+            android:id="@+id/radioSoda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Soda"
+            android:layout_margin="10dp" />
+
+    </RadioGroup>
+
+</LinearLayout>

@@ -7,16 +7,51 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    android:bkacgorund="@color/light_gray"
+    android:padding="20dp"
+    android:background="@color/light_gray"
     tools:context=".ThankYouScreen">
 
+    <!-- Imagem de sucesso -->
+    <ImageView
+        android:id="@+id/imgSuccess"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/ic_arrow"
+        android:layout_marginBottom="30dp" />
+
+    <!-- Texto de confirmação -->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Payment Accept"
+        android:text="Pagamento Confirmado!"
         android:textSize="30sp"
         android:textColor="@color/black"
         android:textStyle="bold"
-        android:gravity="center"/>
+        android:gravity="center"
+        android:layout_marginBottom="20dp"/>
 
+    <!-- Texto descritivo -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Obrigado por sua compra. O seu pagamento foi processado com sucesso."
+        android:textSize="18sp"
+        android:textColor="@color/dark_gray"
+        android:gravity="center"
+        android:layout_marginBottom="40dp"/>
+
+    <!-- Botão de retorno -->
+    <Button
+        android:id="@+id/btReturn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Voltar para o Início"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:backgroundTint="@color/red"
+        android:padding="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        app:cornerRadius="10dp"/>
 </LinearLayout>

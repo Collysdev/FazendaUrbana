@@ -21,7 +21,8 @@
             android:layout_marginTop="20dp"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"/>
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"/> <!-- Centraliza horizontalmente -->
 
         <TextView
             android:id="@+id/txtName"
@@ -31,11 +32,12 @@
             android:textSize="16sp"
             android:textColor="@color/red"
             android:textStyle="bold"
-            android:gravity="start"
+            android:gravity="center"
             android:layout_margin="10dp"
-            app:layout_constraintTop_toBottomOf="@id/txtName"
+            app:layout_constraintTop_toBottomOf="@id/imgProduct"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent"/>
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"/> <!-- Centraliza horizontalmente -->
 
         <ImageButton
             android:id="@+id/btAdd"
@@ -43,11 +45,11 @@
             android:layout_height="48dp"
             android:background="@drawable/bg_button_enabled"
             android:src="@drawable/ic_add"
-            app:layout_constraintTop_toBottomOf="@id/imgProduct"
-            app:layout_constraintStart_toEndOf="@id/txtName"
+            app:layout_constraintTop_toBottomOf="@id/txtName"
+            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent"/>
-
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"/> <!-- Centraliza horizontalmente -->
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.cardview.widget.CardView>

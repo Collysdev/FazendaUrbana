@@ -14,8 +14,8 @@
             android:id="@+id/imgCompanyLogo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/ic_logo" <!-- Substitua pelo seu drawable -->
-        android:layout_marginBottom="20dp"/>
+            android:src="@drawable/abobora"
+            android:layout_marginBottom="20dp"/>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -29,16 +29,25 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Produtos"
-                android:background="@drawable/rounded_button" <!-- Drawable para botões redondos -->
-            android:layout_margin="10dp"/>
+                android:layout_margin="10dp"/>
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btSuppliers"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Fornecedores"
-                android:background="@drawable/rounded_button" <!-- Drawable para botões redondos -->
-            android:layout_margin="10dp"/>
+                android:layout_margin="10dp"/>
 
             <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/bt
+                android:id="@+id/btOrders"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pedidos"
+                android:layout_margin="10dp"/>
+
+        </LinearLayout>
+
+        <!-- Você pode adicionar mais componentes abaixo, como um TextView ou RecyclerView, se necessário -->
+
+    </LinearLayout>
+</layout>

@@ -53,7 +53,7 @@ class Payment : AppCompatActivity() {
                     val intent = Intent(this, ThankYouScreen::class.java)
                     intent.putExtra("userPix", pix)
                     startActivity(intent)
-                    Toast.makeText(this, "Payment with Pix", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this, "Pagamento com Pix", Toast.LENGTH_SHORT).show()
                 } else {
                     Toast.makeText(this, "Fill in the pix field", Toast.LENGTH_SHORT).show()
                 }

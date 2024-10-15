@@ -45,13 +45,7 @@
                 android:textSize="18sp" />
         </LinearLayout>
 
-        <ImageView
-            android:id="@+id/imgSide"
-            android:layout_wi
-
-
-        <?xml version="1.0" encoding="utf-8"?>
-        <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        <ScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:padding="16dp">
@@ -144,6 +138,8 @@
                     android:layout_height="wrap_content"
                     android:text="Desde o início, a HortoInova foi concebida como um espaço onde as pessoas poderiam aprender sobre práticas agrícolas sustentáveis, biodiversidade urbana e a importância da preservação do meio ambiente. Com programas educacionais para todas as idades, desde crianças até adultos."
                     android:layout_marginBottom="16dp"/>
-
             </LinearLayout>
         </ScrollView>
+
+    </RelativeLayout>
+</layout>
