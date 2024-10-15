@@ -4,6 +4,8 @@ import com.example.fazendaurbana.model.Product
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
+import com.example.fazendaurbana.R
+
 
 class Products {
 
@@ -18,7 +20,7 @@ class Products {
                 price = "2.90"
             ),
             Product(
-                imgProduct = R.drawable.Abóbora,
+                imgProduct = R.drawable.abobora,
                 name = "1kg de Abóbora",
                 price = "18.99"
             ),
@@ -48,7 +50,7 @@ class Products {
                 price = "5.50"
             ),
             Product(
-                imgProduct = R.drawable.Brócolis,
+                imgProduct = R.drawable.brocolis,
                 name = "200g de Brócolis",
                 price = "13.90"
             ),
@@ -78,12 +80,12 @@ class Products {
                 price = "9.99"
             ),
             Product(
-                imgProduct = R.drawable.Manjericão,
+                imgProduct = R.drawable.manjericao,
                 name = "1 unidade de Manjericão",
                 price = "3.90"
             ),
             Product(
-                imgProduct = R.drawable.Pimentão,
+                imgProduct = R.drawable.pimentao,
                 name = "3 unidades de Pimentão",
                 price = "3.90"
             ),
