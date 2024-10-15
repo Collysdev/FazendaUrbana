@@ -15,7 +15,7 @@ class Products {
     fun loadProducts(): Flow<MutableList<Product>> {
         val productList = mutableListOf(
             Product(
-                imgProduct = R.drawable.Abobrinha,
+                imgProduct = R.drawable.abobrinha,
                 name = "1 unidade de Abobrinha",
                 price = "2.90"
             ),
@@ -25,27 +25,27 @@ class Products {
                 price = "18.99"
             ),
             Product(
-                imgProduct = R.drawable.Alface,
+                imgProduct = R.drawable.alface,
                 name = "1 unidade de Alface",
                 price = "3.90"
             ),
             Product(
-                imgProduct = R.drawable.Alho,
+                imgProduct = R.drawable.alho,
                 name = "100g de Alho",
                 price = "4.50"
             ),
             Product(
-                imgProduct = R.drawable.Batata,
+                imgProduct = R.drawable.batata,
                 name = "1kg de Batata",
                 price = "15.00"
             ),
             Product(
-                imgProduct = R.drawable.Batata_Doce,
+                imgProduct = R.drawable.batata_doce,
                 name = "1kg de Batata Doce",
                 price = "15.99"
             ),
             Product(
-                imgProduct = R.drawable.Beterraba,
+                imgProduct = R.drawable.beterraba,
                 name = "500g de Beterraba",
                 price = "5.50"
             ),
@@ -55,27 +55,27 @@ class Products {
                 price = "13.90"
             ),
             Product(
-                imgProduct = R.drawable.Cebola,
+                imgProduct = R.drawable.cebola,
                 name = "4 unidades de Cebola",
                 price = "7.90"
             ),
             Product(
-                imgProduct = R.drawable.Cenoura,
+                imgProduct = R.drawable.cenoura,
                 name = "500g de Cenoura",
                 price = "10.90"
             ),
             Product(
-                imgProduct = R.drawable.Coentro,
+                imgProduct = R.drawable.coentro,
                 name = "1 unidade de Coentro",
                 price = "3.90"
             ),
             Product(
-                imgProduct = R.drawable.Couve,
+                imgProduct = R.drawable.couve,
                 name = "100g de Couve",
                 price = "4.50"
             ),
             Product(
-                imgProduct = R.drawable.Espinafre,
+                imgProduct = R.drawable.espinafre,
                 name = "100g de Espinafre",
                 price = "9.99"
             ),
@@ -90,17 +90,17 @@ class Products {
                 price = "3.90"
             ),
             Product(
-                imgProduct = R.drawable.Rabanete,
+                imgProduct = R.drawable.rabanete,
                 name = "6 unidades de Rabanete",
                 price = "12.50"
             ),
             Product(
-                imgProduct = R.drawable.Salsa,
+                imgProduct = R.drawable.salsa,
                 name = "1 unidade de Salsa",
                 price = "2.90"
             ),
             Product(
-                imgProduct = R.drawable.Tomate,
+                imgProduct = R.drawable.tomate,
                 name = "6 unidades de Tomate",
                 price = "12.90"
             )

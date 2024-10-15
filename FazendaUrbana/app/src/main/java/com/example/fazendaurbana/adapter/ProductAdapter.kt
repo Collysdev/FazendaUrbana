@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.example.fazendaurbana.ProductDetails
 import com.example.fazendaurbana.databinding.ProductItemBinding
 import com.example.fazendaurbana.model.Product
 
@@ -22,7 +23,6 @@ class ProductAdapter(private val context: Context, private val productList: Muta
     override fun onBindViewHolder(holder: ProductViewHolder, position: Int) {
         holder.imgProduct.setBackgroundResource(productList[position].imgProduct)
         holder.name.text = productList[position].name
-        holder.price.text = productList[position].price.toString() // Convert to String if needed
 
         // Event Click
         holder.btAdd.setOnClickListener {
@@ -37,7 +37,6 @@ class ProductAdapter(private val context: Context, private val productList: Muta
     inner class ProductViewHolder(binding: ProductItemBinding): RecyclerView.ViewHolder(binding.root) {
         val imgProduct = binding.imgProduct
         val name = binding.txtName
-        val price = binding.txtPrice
         val btAdd = binding.btAdd
     }
 }

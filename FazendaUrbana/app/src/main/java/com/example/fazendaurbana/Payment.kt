@@ -11,6 +11,8 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import java.text.DecimalFormat
+import com.example.fazendaurbana.databinding.ActivityPaymentBinding
+
 import java.text.NumberFormat
 
 class Payment : AppCompatActivity() {

@@ -6,6 +6,7 @@ import android.graphics.Color
 import android.os.Bundle
 import android.view.View
 import android.widget.EditText
+import android.widget.LinearLayout
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.GridLayoutManager
@@ -36,17 +37,17 @@ class MainActivity : AppCompatActivity() {
         setupInitialLayout()
 
         // Lógica para coletar produtos
-        CoroutineScope(Dispatchers.IO).launch {
-            products.getProducts().collectIndexed { index, value ->
-                for (p: Product in value) {
-                    productList.add(p)
-                }
-                // Atualizar a UI na thread principal após a coleta
-                runOnUiThread {
-                    productAdapter.notifyDataSetChanged()
-                }
-            }
-        }
+//        CoroutineScope(Dispatchers.IO).launch {
+//            products.getProducts().collectIndexed { index, value ->
+//                for (p: Product in value) {
+//                    productList.add(p)
+//                }
+//                // Atualizar a UI na thread principal após a coleta
+//                runOnUiThread {
+//                    productAdapter.notifyDataSetChanged()
+//                }
+//            }
+//        }
 
         // Configurar botões de Login e Cadastro
         binding.btLogin.setOnClickListener {
@@ -60,8 +61,8 @@ class MainActivity : AppCompatActivity() {
 
     private fun setupInitialLayout() {
         // Aqui você pode configurar textos e imagens sobre a empresa
-        binding.txtCompanyInfo.text = "Bem-vindo à Fazenda Urbana! Aqui você encontra os melhores produtos."
-        binding.imgCompanyLogo.setImageResource(R.drawable.ic_logo) // Substitua por sua imagem
+        //binding.txtCompanyInfo.text = "Bem-vindo à Fazenda Urbana! Aqui você encontra os melhores produtos."
+        binding.imgCompanyLogo.setImageResource(R.drawable.ic_arrow) // Substitua por sua imagem
     }
 
     private fun showLoginPopup() {

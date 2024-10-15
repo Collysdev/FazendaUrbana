@@ -6,6 +6,8 @@ import android.os.Bundle
 import android.view.View
 import android.widget.RadioButton
 import androidx.appcompat.app.AppCompatActivity
+import com.example.fazendaurbana.databinding.ActivityProductDetailsBinding
+
 import java.text.DecimalFormat
 
 class ProductDetails : AppCompatActivity() {
@@ -35,7 +37,7 @@ class ProductDetails : AppCompatActivity() {
             finish()
         }
 
-        binding.btIncrease.setOnClickListener {
+        binding.btToIncrease.setOnClickListener {
             if (amount < 3) {
                 amount++
                 newPrice += price
@@ -55,10 +57,10 @@ class ProductDetails : AppCompatActivity() {
 
         binding.btConfirm.setOnClickListener {
             val saucesAndDrinks = when {
-                binding.btMustard.isChecked -> "Mustard"
-                binding.btKetchup.isChecked -> "Ketchup"
-                binding.btLemonSoda.isChecked -> "Lemon Soda"
-                binding.btJuice.isChecked -> "Juice"
+                binding.radioMustard.isChecked -> "Mustard"
+                binding.radioKetchup.isChecked -> "Ketchup"
+                binding.radioLemonSoda.isChecked -> "Lemon Soda"
+                binding.radioJuice.isChecked -> "Juice"
                 else -> ""
             }
 

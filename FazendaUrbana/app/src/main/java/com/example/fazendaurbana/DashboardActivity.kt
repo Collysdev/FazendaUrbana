@@ -22,8 +22,8 @@ class DashboardActivity : AppCompatActivity() {
             // Lógica para navegar para a tela de produtos
         }
 
-        binding.btSuppliers.setOnClickListener {
-            // Lógica para navegar para a tela de fornecedores
+        binding.btOrders.setOnClickListener {
+            // Lógica para navegar para a tela de pedidos
         }
 
         binding.btAbout.setOnClickListener {
